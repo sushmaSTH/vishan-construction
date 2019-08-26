@@ -1,0 +1,13 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:700|Open+Sans:300,400|Pacifico");
+@import 'styles/reset.scss';
+@import 'styles/variables.scss';
+@import 'styles/index.scss';
+@import 'styles/nav.scss';
+@import 'styles/banner.scss';
+@import 'styles/footer.scss';
+@import 'styles/helpers.scss';
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}

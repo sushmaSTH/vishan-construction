@@ -1,0 +1,79 @@
+/* Header */
+
+header {
+  display: flex;
+  background-color: white;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 25px;
+  max-width: $maxWidth;
+  margin: 0 auto;
+  .logo {
+    color: #f6755e;
+    font-family: "Pacifico", cursive;
+    font-size: 2.5em;
+    letter-spacing: 2px;
+    margin-top: -5px;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+  }
+
+  .menu_bars {
+	font-size: 2em;
+	color: lightgray;
+	cursor: pointer;
+  }
+
+  .nav {
+	  position: relative;
+    &_links {
+	  display: flex;
+	  position: fixed;
+	  width: 70vw;
+	  right:0;
+	  top:0;
+	  bottom: 0;
+	  height: 100%;
+	  flex-direction: column;
+	  padding: 50px 25px;
+	  background: $cerulean;
+	  &-close {
+		  color: lightgray;
+		  text-align: right;
+		  position: relative;
+		  top: -20px;
+		  cursor: pointer;
+		  font-size: 1.5em;
+	  }
+	  li {
+		border: 0;
+		border-bottom: solid 1px rgba(255, 255, 255, 0.25);
+		color: inherit;
+		display: block;
+		line-height: 4.5em;
+		text-decoration: none;
+		color: white;
+		a {
+			color:white;
+		}
+	  }
+    }
+  }
+  .nav_desktop {
+	  width: 70%;
+	  ul {
+		display: flex;
+		justify-content: space-around;
+
+		a {
+			color: gray;
+			cursor: pointer;;
+		}
+	  }
+
+  }
+}
+
+@media screen and (min-width: 768px) {
+}
