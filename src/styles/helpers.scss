@@ -1,0 +1,16 @@
+.hide_for_mobile {
+  display: none;
+}
+
+.hide_for_desktop {
+    display: block;
+  }
+
+@media screen and (min-width: 768px) {
+  .hide_for_mobile {
+    display: block;
+  }
+  .hide_for_desktop {
+    display: none;
+  }
+}
